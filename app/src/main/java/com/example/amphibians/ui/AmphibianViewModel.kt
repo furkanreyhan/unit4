@@ -62,6 +62,7 @@ class AmphibianViewModel : ViewModel() {
     }
 
     fun onAmphibianClicked(amphibian: Amphibian) {
+        _amphibian.value = amphibian
         // TODO: Set the amphibian object
     }
 }
